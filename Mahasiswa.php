@@ -9,5 +9,6 @@ class Mahasiswa {
         $this->nim = $nim;
         $this->nama = $nama;
     }
+    /* abed */
 }
 ?>
