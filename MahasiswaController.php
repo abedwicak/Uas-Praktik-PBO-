@@ -9,7 +9,7 @@ class MahasiswaController {
             die("Connection failed: " . $this->db->connect_error);
         }
     }
-
+/*abed*/
     public function tampilDaftarMahasiswa() {
         $query = "SELECT * FROM mahasiswa";
         $result = $this->db->query($query);
